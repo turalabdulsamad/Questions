@@ -22,7 +22,7 @@ public class FirstQuestion {
     private static Integer sumPrimeNums() {
         int count = 0;
         int sum = 0;
-        for (int i = 2; count < 10; i++) {
+        for (int i = 2; count < 1000; i++) {
             if (isPrime(i) == true) {
                 sum += i;
                 count++;
